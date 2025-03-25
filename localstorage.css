@@ -1,0 +1,91 @@
+.text{
+ width: 300px;
+ height: 30px;
+ font-size: 20px;
+ padding-left: 10px;
+
+ border-radius: 50px;
+ position: absolute;
+}
+
+.save{
+  height: 50px ;
+  width: 100px;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(181, 184, 219);
+  position: absolute;
+}
+
+.save:hover{
+  background-color: rgb(142, 147, 195);
+}
+
+.save:active{
+  background-color: rgb(119, 125, 176);
+}
+
+.delete{
+  height: 50px ;
+  width: 100px;
+  margin-top: 50px;
+  margin-left: 170px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(181, 184, 219);
+  position: absolute;
+}
+
+.delete:hover{
+  background-color: rgb(142, 147, 195);
+}
+
+.delete:active{
+  background-color: rgb(119, 125, 176);
+}
+
+.every{
+  margin-left: 600px;
+  margin-top: 200px;
+  transition: margin-left 1s;
+}
+
+
+@media screen and (max-width:1300px) {
+  .every{
+    margin-left: 400px;
+    transition: margin-left 1s;
+  }
+}
+
+
+@media screen and (max-width:1000px) {
+  .every{
+    margin-left: 250px;
+    transition: margin-left 1s;
+  }
+}
+
+
+
+@media screen and (max-width:768px) {
+  .every{
+    margin-left: 100px;
+    transition: margin-left 1s;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .every{
+    margin-left: 30px;
+    transition: margin-left 1s;
+  }
+}
+
+
+
+
